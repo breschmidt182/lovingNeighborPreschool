@@ -4,15 +4,14 @@ function Home () {
 			<div id='tagdiv'>
 				<h2 id='tagline'>Where Little Hearts Grow, Learn, and Shine Brightly</h2>
 			</div>
-			<div id="homeImg">
-			 <img src={require('../img/istockphoto-1397844973-170667a.webp')} alt='kids at school'></img>
-			</div>
 
+			 <img id="homeImg" src={require('../img/istockphoto-1397844973-170667a.webp')} alt='kids at school'></img>
+			
       <form className='formsec'>
 			 <h2 className='title is-3'>Fill out this form to learn more!</h2>
-			 <div className='field'>
+			 <div className='field' id='fname'>
 				 <label className='label'>First Name</label>
-				 <div className='control'>
+				 <div className='control' id='fname'>
 					 <input className='input' type='text' placeholder='First Name'/>
 				 </div>
 			 </div>
