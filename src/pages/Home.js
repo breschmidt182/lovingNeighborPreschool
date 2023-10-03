@@ -9,7 +9,7 @@ function Home () {
 			
       <form className='formsec'>
 			 <h2 className='title is-3'>Fill out this form to learn more!</h2>
-			 <div className='field' id='fname'>
+			 <div className='field'>
 				 <label className='label'>First Name</label>
 				 <div className='control' id='fname'>
 					 <input className='input' type='text' placeholder='First Name'/>

@@ -4,17 +4,21 @@
 
 #nav {
 	background-color: #6EC7E6;
+	flex-wrap: wrap;
 }
 #navName{
 	color: #FFFFFF;
 	font-family:'Open Sans';
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 32px;
+	flex-wrap: wrap;
 }
 
 #navbarBasicExample{
 	color: #FFFFFF;
 	font-family:'Open Sans';
+	margin-left: 50px;
+	padding-left: 10%;
 }
 
 #navItem{
@@ -34,15 +38,10 @@
 	font-family: "Pacifico";
 	font-size: 35px;
 }
-#homeImg{
+#homeImg {
 	float: right;
 	max-width: 50%;
 	height: auto;
-}
-
-#fname{
-	margin-bottom: 0%;
-	padding-bottom: 0%;
 }
 
 .field{
@@ -60,7 +59,8 @@
 	max-width: 55%;
 	font-family: Roboto;
 	margin-bottom: 5%;
-	margin-top: 5%;
+	margin-top: 15%;
+	padding-top: 2%;
 }
 
 #subtitle {
