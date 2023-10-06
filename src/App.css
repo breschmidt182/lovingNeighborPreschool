@@ -40,9 +40,12 @@
 }
 #homeImg {
 	float: right;
-	max-width: 50%;
+	max-width: 55%;
 	height: auto;
+	display: flex;
+	margin: 0;
 }
+
 
 .field{
 	padding: 2%;
@@ -53,15 +56,17 @@
 	
 }
 
+
 .formsec{
 	background-color: #FFB6B9;
 	text-align: left;
 	max-width: 55%;
 	font-family: Roboto;
 	margin-bottom: 5%;
-	margin-top: 15%;
+	margin-top: 5%;
 	padding-top: 2%;
 }
+
 
 #subtitle {
 	color: #9EDB99;
