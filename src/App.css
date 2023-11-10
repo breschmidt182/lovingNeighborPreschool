@@ -5,30 +5,55 @@
 #nav {
 	background-color: #6EC7E6;
 	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
 }
+
+.navbar-brand {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+
 #navName{
-	color: #FFFFFF;
+	/* color: #FFFFFF;
 	font-family:'Open Sans';
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 32px; */
+	text-decoration: none;
 	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+
+#logo {
+	display: flex;
+	position: relative;
+	height: 100px;
+	width: 200px;
 }
 
 #navbarBasicExample{
 	color: #FFFFFF;
 	font-family:'Open Sans';
-	margin-left: 50px;
 	padding-left: 10%;
+	display: flex;
+	background-color: #6EC7E6;
 }
 
 #navItem{
 	color: #FFFFFF;
 	font-size: 30px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	text-decoration: none;
 }
 
 #tagdiv{
 	text-align: left;
-	max-width: 50%;
 	margin-top: 20px;
 }
 
@@ -38,11 +63,31 @@
 	font-family: "Pacifico";
 	font-size: 35px;
 }
-#homeImg {
+
+#missiondiv {
+	float: right;
+	max-width: 50%;
+	height: fit-content;
+	margin-top: 20px;
+	position: relative;
+	/* margin-left: 50%; */
+}
+
+#mission {
+	color: #9EDB99;
+	font-family: "Pacifico";
+	font-size: 25px;
+	float: right;
+	bottom: 2px;
+	right: 2px;
+}
+
+.homeImg {
 	float: right;
 	max-width: 55%;
-	height: auto;
+	height: max-content;
 	display: flex;
+	flex-direction: column;
 	margin: 0;
 }
 
@@ -53,7 +98,6 @@
 
 #sendbttn{
 	background-color: #9EDB99;
-	
 }
 
 
@@ -61,10 +105,14 @@
 	background-color: #FFB6B9;
 	text-align: left;
 	max-width: 55%;
+	height: 750px;
 	font-family: Roboto;
 	margin-bottom: 5%;
 	margin-top: 5%;
 	padding-top: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 
@@ -81,4 +129,17 @@
 
 #lastsect{
 	padding-bottom: 3%;
+}
+
+.hamburger {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.hamburger{
+		display: fixed;
+		padding-top: 10px;
+		margin-left: 10px;
+		z-index: 10
+	}
 }
